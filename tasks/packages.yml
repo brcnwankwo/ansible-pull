@@ -4,9 +4,3 @@
       - htop
       - mc
       - tmux
-
-- name: Upgrade the packages
-  tasks:
-    - name: Upgrade the packages
-      apt:
-        upgrade: dist
